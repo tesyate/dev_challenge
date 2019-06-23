@@ -1,0 +1,21 @@
+@import "./_fonts.scss";
+
+body {
+  font-family: Roboto;
+  &.ReactModal__Body--open {
+    overflow: hidden;
+  }
+}
+li {
+  list-style: none;
+}
+a {
+  &:hover {
+    color: #000;
+  }
+}
+.app-wrp {
+  background-color: #fff;
+  min-height: 100vh;
+  display: flex;
+}

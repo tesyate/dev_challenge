@@ -1,0 +1,17 @@
+header {
+	background: #eee;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 50px;
+	.header_link {
+		color: black;
+		text-decoration: none;
+		&:hover {
+			font-weight: 500;
+			color: #444444;
+			text-decoration: none;
+		}
+	}
+}
